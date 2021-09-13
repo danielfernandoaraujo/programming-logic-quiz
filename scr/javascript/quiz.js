@@ -17,8 +17,8 @@ function botão01(){
     page++
     if(page == 1){
         pergunta.innerHTML = 'O que é algoritimo?'
-        bt01.innerHTML = 'É a forma que nós comunicamos com o computador.'
-        bt02.innerHTML = 'Tecnologia usada pelo youtube para saber o que você gosta.'
+        bt01.innerHTML = 'A forma que nós comunicamos com o computador.'
+        bt02.innerHTML = 'Tecnologia usada pelo YouTube para saber o que você gosta.'
         bt03.innerHTML = 'Sequencia de instruções para solucionar um problema.'
         score = score + 25
     }
@@ -43,8 +43,8 @@ function botão02(){
     page++
     if(page == 1){
         pergunta.innerHTML = 'O que é algoritimo?'
-        bt01.innerHTML = 'É a forma que nós comunicamos com o computador'
-        bt02.innerHTML = 'Tecnologia usada pelo youtube para saber o que você gosta.'
+        bt01.innerHTML = 'A forma que nós comunicamos com o computador'
+        bt02.innerHTML = 'Tecnologia usada pelo YouTube para saber o que você gosta.'
         bt03.innerHTML = 'Sequencia de instruções para solucionar um problema.'
     }
     if(page == 2){
@@ -63,7 +63,6 @@ function botão02(){
     if(page == 4){
         score = score + 25
         window.location.href = "/scr/pages/end.html";
-        window.alert(score)
         localStorage.setItem('pontos', score)
     }
     
@@ -72,8 +71,8 @@ function botão03(){
     page++
     if(page == 1){       
         pergunta.innerHTML = 'O que é algoritimo?'
-        bt01.innerHTML = 'É a forma que nós comunicamos com o computador'
-        bt02.innerHTML = 'Tecnologia usada pelo youtube para saber o que você gosta.'
+        bt01.innerHTML = 'A forma que nós comunicamos com o computador'
+        bt02.innerHTML = 'Tecnologia usada pelo YouTube para saber o que você gosta.'
         bt03.innerHTML = 'Sequencia de instruções para solucionar um problema.'
     }
     if(page == 2){

@@ -107,6 +107,11 @@ p{
     font-style: italic;
     margin: 10px 1px;
 }
+hr{
+    border: 0;
+	border-top: 1px solid #0000006e;
+    box-shadow: 1px 1px 1px rgba(137, 43, 226, 0.397);
+}
 #resposta{
     font-size: 15px;
     margin: 2px 2px;
@@ -127,14 +132,36 @@ p{
     margin-top: 150px;
 }
 #page01{
-    margin-top: 175px;
+    margin-top: 155px;
 }
 #pts{
-    font-style: normal;
-    font-size: 30px;
-    
+    font-style: italic;
+    font-size: 30px;    
 }
 #pontuação{
     font-style: italic;
-    font-size: 30px;
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.842);
 }
+#end{
+    max-width: 300px;
+    
+   
+}
+#pergunta01{
+    font-family: Arial;
+}
+#texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 4vh;
+}
+.bts{
+    height: 70px;
+    width: 95%;
+}
+#sub{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

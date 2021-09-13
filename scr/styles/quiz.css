@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+body{
+    width: 100%;
+    margin: auto;
+    background: url(/scr/images/Background.jpg) center;
+    justify-content: center;
+
+    font-family: 'Roboto Condensed';
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+div#content{
+    margin-bottom: 0px;
+
+
+}
+div#texto01{
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+section{
+    background: rgb(206, 153, 255);
+    border-radius:  10px;
+    padding: 10px; 
+    max-width: 500px;
+    margin:auto;
+    margin-top: 15px;
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.555);
+    text-align: center;
+    
+}
+
+footer{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1px;
+    color: rgba(255, 255, 255, 0.479);
+
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    font-family: Arial;
+    
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 1px 1px 2px  black;
+    
+    
+    margin: 1.5% 1.5%; 
+    height: 40px;
+    width: 95%;
+    padding: 10px 20px;
+
+    border: none;
+    background-color: rgba(155, 0, 147, 0.795);
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.384);
+   
+    cursor: pointer;
+}
+button:active{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.384), inset 3px 4px 4px rgba(0, 0, 0, 0.384);
+    
+}
+input{
+    text-align: center;
+
+    border: 2px solid rgba(94, 94, 94, 0);
+    border-radius: 50px;
+    
+    width: 90%;
+    height: 5vh;
+    margin-bottom: 10px;
+    outline: none;
+    transition: 0ms 0ms 100ms ;
+}
+input:focus{
+    border-color: violet;
+    box-shadow: 0 0 8px 0 violet;
+   
+}
+
+h1{
+    font-weight:bold;
+    font-size: 34px;
+
+}
+h2{
+    font-weight:normal;
+    text-align: center;
+   
+}
+h3{
+    font-weight:normal;
+    font-size: 25px;
+
+    margin: none;
+
+}
+p{
+    font-size: 17px;
+    font-style: italic;
+    margin: 10px 1px;
+}
+#resposta{
+    font-size: 15px;
+    margin: 2px 2px;
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+#texto01{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-family: 'comfortaa', cursive;
+}
+#enviar{
+    text-align: center;
+    width: 40%;
+}
+#page{
+    margin-top: 150px;
+}
+#page01{
+    margin-top: 175px;
+}
+#pts{
+    font-style: normal;
+    font-size: 30px;
+    
+}
+#pontuação{
+    font-style: italic;
+    font-size: 30px;
+}

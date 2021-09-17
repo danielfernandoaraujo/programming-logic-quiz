@@ -1,2 +1,2 @@
 # programming-logic-quiz
-Um quiz rápido sobre programação, ultilizando ferramentas basicas, Html, Css e JavaScript
+Um quiz rápido sobre programação, ultilizando ferramentas básicas, Html, Css e JavaScript

@@ -4,8 +4,9 @@ o redirecionamento com o localStorage que serve para guardar uma key no navegado
 variavel universal */
 function enviar() {
     let send = document.getElementById('name').value;
+    let text = document.getElementById('alert')
     if(send == ""){
-        window.alert('[ERRO] Por favor insira seu nome!!')
+        text.innerHTML= 'Por favor insira um nome'
         
     } else{
         window.location.href = "/scr/pages/quiz.html";

@@ -5,7 +5,7 @@
 body{
     width: 100%;
     margin: auto;
-    background: url(/scr/images/Background.jpg) center;
+    background: linear-gradient(to right, #da4453, #89216b);
     justify-content: center;
 
     font-family: 'Roboto Condensed';
@@ -21,13 +21,13 @@ div#texto01{
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
 }
 section{
-    background: rgb(206, 153, 255);
-    border-radius:  10px;
+    background: rgba(255, 255, 255, 0.596);
+    border-radius:  20px;
     padding: 10px; 
     max-width: 500px;
     margin:auto;
     margin-top: 15px;
-    box-shadow: 5px 5px  rgba(0, 0, 0, 0.555);
+    box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.555);
     text-align: center;
     
 }
@@ -43,12 +43,12 @@ button{
     display: inline-block;
     text-decoration: none;
     text-align: left;
-    font-family: Arial;
+    font-family: 'Gill Sans', sans-serif;
     
     font-size: 15px;
     font-weight: normal;
-    color: white;
-    text-shadow: 1px 1px 2px  black;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
     
     
     margin: 1.5% 1.5%; 
@@ -56,8 +56,8 @@ button{
     width: 95%;
     padding: 10px 20px;
 
-    border: none;
-    background-color: rgba(155, 0, 147, 0.795);
+    border: 1px solid rgb(136, 6, 148);
+    background-color: rgba(155, 0, 96, 0.699);
     border-radius: 20px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.384);
    
@@ -66,6 +66,9 @@ button{
 button:active{
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.384), inset 3px 4px 4px rgba(0, 0, 0, 0.384);
     
+}
+#alert{
+    color: rgb(212, 0, 0);
 }
 input{
     text-align: center;
@@ -129,10 +132,7 @@ hr{
     width: 40%;
 }
 #page{
-    margin-top: 150px;
-}
-#page01{
-    margin-top: 155px;
+    margin-top: 15vh;
 }
 #pts{
     font-style: italic;
@@ -141,7 +141,7 @@ hr{
 #pontuação{
     font-style: italic;
     font-size: 27px;
-    color: rgba(0, 0, 0, 0.842);
+    color: rgb(49, 49, 100);
 }
 #end{
     max-width: 300px;
@@ -149,16 +149,22 @@ hr{
    
 }
 #pergunta01{
-    font-family: Arial;
+    font-family: sans-serif;
+    color: rgb(49, 49, 100);
+    
 }
 #texto{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 4vh;
+    color: rgb(49, 49, 100);;
 }
 .bts{
     height: 70px;
     width: 95%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+    text-align: left;
 }
 
 

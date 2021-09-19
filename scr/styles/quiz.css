@@ -56,15 +56,20 @@ button{
     width: 95%;
     padding: 10px 20px;
 
-    border: 1px solid rgb(136, 6, 148);
+    border: none;
     background-color: rgba(155, 0, 96, 0.699);
     border-radius: 20px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.384);
-   
+    
+    transition: 70ms all;
+
     cursor: pointer;
 }
+button:hover{
+    background-color: rgba(121, 0, 74, 0.699);
+}
 button:active{
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.384), inset 3px 4px 4px rgba(0, 0, 0, 0.384);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.384), inset 1px 1px 10px rgba(0, 0, 0, 0.384);
     
 }
 #alert{

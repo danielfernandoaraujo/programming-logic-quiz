@@ -5,7 +5,7 @@
 body{
     width: 100%;
     margin: auto;
-    background: linear-gradient(to right, #da4453, #89216b);
+    background: rgb(27, 25, 25);
     justify-content: center;
 
     font-family: 'Roboto Condensed';
@@ -21,8 +21,8 @@ div#texto01{
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
 }
 section{
-    background: rgba(255, 255, 255, 0.596);
-    border-radius:  20px;
+    background: rgb(77, 77, 77);
+    border-radius:  5px;
     padding: 10px; 
     max-width: 500px;
     margin:auto;
@@ -57,16 +57,17 @@ button{
     padding: 10px 20px;
 
     border: none;
-    background-color: rgba(155, 0, 96, 0.699);
-    border-radius: 20px;
+    background-color: rgba(39, 39, 39, 0.699);
+    border-radius: 5px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.384);
     
-    transition: 70ms all;
+    transition: .4s all;
 
     cursor: pointer;
 }
 button:hover{
-    background-color: rgba(121, 0, 74, 0.699);
+    background-color: rgba(27, 27, 27, 0.699);
+    transform: scale(1.05);
 }
 button:active{
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.384), inset 1px 1px 10px rgba(0, 0, 0, 0.384);
@@ -79,17 +80,18 @@ input{
     text-align: center;
 
     border: 2px solid rgba(94, 94, 94, 0);
-    border-radius: 50px;
+    border-radius: 5px;
     
+    background-color: rgb(196, 196, 196);
     width: 90%;
     height: 5vh;
     margin-bottom: 10px;
     outline: none;
-    transition: 0ms 0ms 100ms ;
+    transition: .4s ;
 }
 input:focus{
-    border-color: violet;
-    box-shadow: 0 0 8px 0 violet;
+    border-color: rgb(55, 132, 204);
+    box-shadow: 0 0 8px 0 rgb(30, 110, 184);
    
 }
 
@@ -106,7 +108,7 @@ h2{
 h3{
     font-weight:normal;
     font-size: 25px;
-
+    color: white;
     margin: none;
 
 }
@@ -117,8 +119,8 @@ p{
 }
 hr{
     border: 0;
-	border-top: 1px solid #0000006e;
-    box-shadow: 1px 1px 1px rgba(137, 43, 226, 0.397);
+	border-top: 1px solid #ffffff6e;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.397);
 }
 #resposta{
     font-size: 15px;
@@ -146,23 +148,26 @@ hr{
 #pontuação{
     font-style: italic;
     font-size: 27px;
-    color: rgb(49, 49, 100);
+    color: rgb(255, 255, 255);
 }
 #end{
-    max-width: 300px;
-    
-   
+    padding: 4vh;
 }
 #pergunta01{
     font-family: sans-serif;
-    color: rgb(49, 49, 100);
+    color: rgb(255, 255, 255);
     
 }
 #texto{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 4vh;
-    color: rgb(49, 49, 100);;
+    color: rgb(255, 255, 255);;
+}
+.end{
+    width: 40vh;
+    box-shadow: none;
+    margin-bottom: 10px;
 }
 .bts{
     height: 70px;

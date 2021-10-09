@@ -3,6 +3,9 @@ let receber02 = localStorage.getItem("pontos");
 
 let msg = document.getElementById('texto');
 let pontos= document.getElementById('pts');
+let enviar = document.getElementById('enviar');
+
+enviar.addEventListener('click',recomeçar) //evento
 
 function recomeçar(){
     window.location.href = "/scr/pages/quiz.html";

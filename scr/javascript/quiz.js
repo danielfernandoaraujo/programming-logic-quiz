@@ -9,7 +9,10 @@ let bt02 = document.getElementById('bt02');
 let bt03 = document.getElementById('bt03');
 let pergunta = document.getElementById('pergunta01');
 
-    
+bt01.addEventListener('click',botão01); //evento
+bt02.addEventListener('click',botão02); //evento
+bt03.addEventListener('click',botão03); //evento
+
 function page01(){
     pergunta.innerHTML = 'O que é algoritimo?'
     bt01.innerHTML = 'A forma que nós comunicamos com o computador.'

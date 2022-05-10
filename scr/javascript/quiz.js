@@ -81,7 +81,7 @@ function botão03(){
         page03()
     }
     if(page == 4){
-        window.location.href = "/scr/pages/end.html";
+        window.location.href = "/scr/pages/pages/end.html";
         localStorage.setItem('pontos', score)
     }
     

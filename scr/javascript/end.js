@@ -8,7 +8,7 @@ let enviar = document.getElementById('enviar');
 enviar.addEventListener('click',recomeçar) //evento
 
 function recomeçar(){
-    window.location.href = "/scr/pages/quiz.html";
+    window.location.href = "/scr/pages/pages/quiz.html";
 }
 if(receber02 <= 25){
     msg.innerHTML = `Que pena ${receber}, <br>sua pontuação foi um pouco baixa!`

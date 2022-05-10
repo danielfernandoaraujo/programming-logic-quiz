@@ -14,7 +14,7 @@ function enviar() {
         text.innerHTML= 'Por favor insira um nome'
         
     } else{
-        window.location.href = "/scr/pages/quiz.html";
+        window.location.href = "/scr/pages/pages/quiz.html";
         //localStorage.getItem = Guardar uma variavel no navegador para usar em qualquer outra pagina
         localStorage.setItem('name', send)
         return send
